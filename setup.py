@@ -3,7 +3,7 @@ import setuptools
 with open("README.md", "r") as fh:
     long_description = fh.read()
 
-reqs = ['torch', "devito @ git+https://github.com/devitocodes/devito@master",
+reqs = ['torch', "devito @ git+https://github.com/devitocodes/devito@main",
         "torchvision"]
 setuptools.setup(
     name="devito4pytorch",
